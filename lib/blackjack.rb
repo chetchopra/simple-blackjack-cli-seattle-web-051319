@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(ct)
-  puts ct
+  print ct
 end
 
 def prompt_user
