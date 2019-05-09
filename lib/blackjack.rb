@@ -32,8 +32,8 @@ end
 
 def hit?(ct)
   prompt_user
-  in = get_user_input
-  return in == ct ? true : false
+  int = get_user_input
+  return int == ct ? true : false
 end
 
 def invalid_command
