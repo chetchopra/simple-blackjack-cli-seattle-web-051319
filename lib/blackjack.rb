@@ -33,6 +33,9 @@ end
 def hit?(ct)
   prompt_user
   int = get_user_input
+  while int == 'h'
+    int = get_user_input
+  end
   return ct
 end
 
