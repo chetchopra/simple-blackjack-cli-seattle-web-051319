@@ -30,8 +30,10 @@ def initial_round
   return one + two
 end
 
-def hit?
-  # code hit? here
+def hit?(ct)
+  prompt_user
+  in = get_user_input
+  return in == ct ? true : false
 end
 
 def invalid_command
